@@ -1,0 +1,28 @@
+.home-view {
+  &__main-image-container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  }
+
+  &__main-image-info-container {
+    position: relative;
+  }
+
+  &__main-info-card-container {
+    position: absolute;
+    top: calc(29vw * 0.5);
+    width: 40vw;
+    height: 42vw;
+    padding-left: 100px;
+  }
+
+  &__main-image{
+    width: 100%;
+  }
+
+  &__information-card {
+    height: 100%;
+  }
+}
