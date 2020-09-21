@@ -11,7 +11,8 @@
   padding-right: $general_padding_right;
   color: #FFFFFF;
   &__title {
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 2.8vw;
   }
 
   &__options {
@@ -23,7 +24,7 @@
   }
 
   &__option {
-    padding: 29px;
+    padding: 3vw;
     text-decoration: none;
     color: #FFFFFF;
 

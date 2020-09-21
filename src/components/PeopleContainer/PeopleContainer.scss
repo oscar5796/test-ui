@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.people-container {
+  margin-top: 30px;
+
+  h2 {
+
+  }
+
+  &__person-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
