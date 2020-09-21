@@ -61,17 +61,21 @@
       button {
         margin-right: 10px;
         &:focus {
-          outline: none;
+          outline: 1px solid white;
         }
-
-
       }
       &__upvote {
+        &.bordered {
+          border: 1px solid white;
+        }
         border: none;
         background-color: $upvote_background_color;
       }
 
       &__downvote {
+        &.bordered {
+          border: 1px solid white;
+        }
         border: none;
         background-color: $downvote_background_color;
       }

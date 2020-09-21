@@ -2,12 +2,11 @@ import React, {useState} from 'react';
 import { Warning } from 'components/Warning/Warning';
 import { InformationCard } from 'components/InformationCard/InformationCard';
 import { PeopleContainer } from 'components/PeopleContainer/PeopleContainer';
-import { useStateValue } from 'state/store';
 import './HomeView.scss';
 
 export const HomeView = () => {
   const [daysLeft, setDaysLeft] = useState(22);
-  const [{ appState }, dispatch] = useStateValue();
+
 
   return (
     <div className="home-view">
@@ -45,9 +44,7 @@ export const HomeView = () => {
 
       <div className="home-view__main-content">
         <Warning />
-        <PeopleContainer
-          people={appState.people}
-        />
+        <PeopleContainer/>
       </div>
     </div>
   );
